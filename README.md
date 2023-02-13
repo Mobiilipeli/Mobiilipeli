@@ -13,5 +13,5 @@ Luotiin peliä varten Unity-projekti ja alettiin työstämään sitä.
 * Pelihahmon ja vihollisen spritet
 * Pelihahmon ja vihollisen peliobjektit
 * Köysi ja sen fysiikat
-*
+* Metsä taso
  
