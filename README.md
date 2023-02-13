@@ -4,7 +4,7 @@
 
 ### :date: Sprint 1 (30-1.-19.2.2023)
 
-Sprintti 1:ssä luotiin Unity-projekti ja alettiin työstämään sitä. 
+Sprintti 1:ssä luotiin peliä varten Unity-projekti ja alettiin työstämään sitä. 
 
 #### Projektin uudet lisäykset
 
