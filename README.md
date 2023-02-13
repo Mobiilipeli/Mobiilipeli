@@ -12,3 +12,4 @@ Sprintti 1:ssä luotiin peliä varten Unity-projekti ja alettiin työstämään 
 * Pelihahmon ja vihollisen peliobjektit
 * Köysi ja sen fysiikat
 *
+ 
