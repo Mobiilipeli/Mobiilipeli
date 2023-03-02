@@ -5611,6 +5611,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5216020994305311808, guid: ef4eb5e1c6353d24d8a06ef1c0c4b451, type: 3}
+      propertyPath: loseHeight
+      value: -15
+      objectReference: {fileID: 0}
     - target: {fileID: 5216020994305311818, guid: ef4eb5e1c6353d24d8a06ef1c0c4b451, type: 3}
       propertyPath: m_Name
       value: "k\xF6ysi"
