@@ -40,7 +40,7 @@ public class Lose : MonoBehaviour
     {
 	    if (transform.position.y <= loseHeight)
 	    {
-	        SceneManager.LoadScene("Game");
+	        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	    }
 	}
 }
