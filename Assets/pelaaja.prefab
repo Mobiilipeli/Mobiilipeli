@@ -100,10 +100,10 @@ GameObject:
   - component: {fileID: 5216020994305311810}
   - component: {fileID: 5216020994305311811}
   - component: {fileID: 5216020994305311808}
-  - component: {fileID: 5216020994305311816}
-  - component: {fileID: 5216020994305311821}
+  - component: {fileID: 4050937606564266302}
+  - component: {fileID: 6360904735526436177}
   m_Layer: 10
-  m_Name: "k\xF6ysi"
+  m_Name: pelaaja
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -167,7 +167,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 569dd7759ce4de04995a5e72a642cf85, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1f5071287ce343e448f22afa80533513, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -366,7 +366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loseHeight: -5
---- !u!114 &5216020994305311816
+--- !u!114 &4050937606564266302
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -375,37 +375,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 5216020994305311818}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f884aaacc5204b14aaf128af90e1129b, type: 3}
+  m_Script: {fileID: 11500000, guid: d2607522cc4565c488ba0c3bbf1c1594, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swingForce: 7
+  speed: 0
+  jumpSpeed: 3
+  ropeHook: {x: 0, y: 0}
+  isSwinging: 0
+  groundCheck: 0
+--- !u!114 &6360904735526436177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5216020994305311818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 047be3f536c08684c863f5e3578b2b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ropeRenderer: {fileID: 5216020994305311819}
   ropeLayerMask:
     serializedVersion: 2
-    m_Bits: 4294962121
-  climbSpeed: 3
+    m_Bits: 1
+  climbSpeed: 4
   ropeHingeAnchor: {fileID: 5216020994596765725}
   ropeJoint: {fileID: 5216020994305311810}
   crosshair: {fileID: 5216020993658265450}
   crosshairSprite: {fileID: 5216020993658265451}
-  playerMovement: {fileID: 5216020994305311821}
---- !u!114 &5216020994305311821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5216020994305311818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf09e498c8cdc9249b1aeb40ddb49e43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  swingForce: 4
-  speed: 2.5
-  jumpSpeed: 5
-  ropeHook: {x: -0.883621, y: 3.4844007}
-  isSwinging: 0
-  groundCheck: 1
+  playerMovement: {fileID: 4050937606564266302}
 --- !u!1 &5216020994596765725
 GameObject:
   m_ObjectHideFlags: 0
