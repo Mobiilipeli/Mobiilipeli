@@ -30,9 +30,4 @@ public class GameManager2 : MonoBehaviour
         }
     }
 
-    public void Finish()
-    {
-        SceneManager.LoadScene("TilemapTestScene");
-        
-    }
 }
