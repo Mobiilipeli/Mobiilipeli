@@ -9,7 +9,7 @@
 * Luotiin ja jaettiin projektin GitHub-projekti kurssin opettajille.  
 * Päätettiin Sprint 1 taskit ja merkittiin ne backlogiin.  
 
-### :date: Sprint 1 (30-1.-19.2.2023)
+### :date: Sprint 1 (30.1.-19.2.2023)
 
 * Pystytettiin projektin kehitysympäristö.  
 * Asennettiin jokaiselle työasemalle Unity.    
@@ -45,3 +45,4 @@
 ![image](https://user-images.githubusercontent.com/90974678/219310207-51b4a1b3-7ed1-4a0e-9938-e6a31be3432e.png)
 
  
+ ### :date: Sprint 2 (27.2.-19.3.2023)
