@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-/* SUBSCRIBING TO MY YOUTUBE CHANNEL: 'VIN CODES' WILL HELP WITH MORE VIDEOS AND CODE SHARING IN THE FUTURE :) THANK YOU */
 
 public class MoveToNextLevel : MonoBehaviour
 {
@@ -14,9 +13,9 @@ public class MoveToNextLevel : MonoBehaviour
         nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
     }
 
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if(other.gameObject.tag == "Player")
+        if (collision.tag == "Player")
         {
             if(SceneManager.GetActiveScene().buildIndex == 7) /* < Change this int value to whatever your
                                                                    last level build index is on your
