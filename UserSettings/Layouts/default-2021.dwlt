@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 93
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 94
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 95
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -443,21 +443,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\nickl\Documents\haaga-helia\Ohjelmistoprojekti II\Mobiilipeli
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a0620000
-    m_LastClickedID: 25248
+    m_SelectedIDs: 94620000
+    m_LastClickedID: 25236
     m_ExpandedIDs: 000000006062000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -513,7 +513,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000427d00001e7a0000ea770000006000002e620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -616,7 +616,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2cfbffff
+      m_ExpandedIDs: 2890ffff8e90ffffd89cffff549effff9e9fffffe2a3ffff5ea4ffff16a8ffff9caafffff8b0ffffc6b5ffff6cb6ffff22b7ffff06bcffff4cbeffffb2beffff30bfffffa6bfffff1ac0ffff96c5ffff32c6ffffaad5ffff5ed6fffffad6ffff76d9ffffd4daffff88dcfffffee3fffface5ffff98f2ffff28f4ffff60f5ffffa2f6ffffdaf6ffff4ef9ffff2cfbffff420c0100405d01005a5f01000060010020600100426001005c6001007e60010088600100946001008c640100b86401002465010086650100b0650100b8650100ce650100ea6b01001c6c0100266c0100326c010094700100d0700100dc70010088770100ba770100d0770100a48401003e8501001087010058870100e48e01007e8f0100e48f010034900100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -632,7 +632,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 3}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -920,9 +920,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.3339298, y: -2.7053828, z: 0.54487044}
+    m_Target: {x: 491.90497, y: 288.76074, z: 0.24782968}
     speed: 2
-    m_Value: {x: 2.3339298, y: -2.7053828, z: 0.54487044}
+    m_Value: {x: 491.90497, y: 288.76074, z: 0.24782968}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -973,9 +973,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 13.20367
+    m_Target: 525.9441
     speed: 2
-    m_Value: 13.20367
+    m_Value: 525.9441
   m_Ortho:
     m_Target: 1
     speed: 2
