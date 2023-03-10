@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class DeletePlayerPrefs : MonoBehaviour
 {
-    // Update is called once per frame
+    // Tämä skripti liitetään GameObjectiin, joten sen täytyy periytyä MonoBehaviour-luokasta.
+
+    // Update-funktio kutsutaan jokaisen pelin päivityksen yhteydessä.
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.M))
+        // Tarkistetaan, onko pelaaja painanut näppäintä "M".
+        if (Input.GetKeyDown(KeyCode.M))
         {
+            // Jos pelaaja on painanut näppäintä "M", poistetaan kaikki tallennetut tiedot.
             PlayerPrefs.DeleteAll();
         }
     }
 }
+

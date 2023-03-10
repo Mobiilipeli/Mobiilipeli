@@ -5,14 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void PlayGame ()
+    // Tämä metodi kutsutaan, kun pelaaja painaa "Play Game" -painiketta.
+    public void PlayGame()
     {
+        // Ladataan seuraava buildindeksi Scene Managerista.
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void QuitGame ()
+    // Tämä metodi kutsutaan, kun pelaaja painaa "Quit" -painiketta.
+    public void QuitGame()
     {
+        // Tulostetaan "QUIT!" konsoliin (debuggausta varten).
         Debug.Log("QUIT!");
+
+        // Lopetetaan sovelluksen suorittaminen.
         Application.Quit();
     }
 }
