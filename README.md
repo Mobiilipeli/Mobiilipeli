@@ -46,3 +46,17 @@
 
  
  ### :date: Sprint 2 (27.2.-19.3.2023)
+
+ ### Uutta
+ 
+ * Kontrolleja hiotttu 
+   
+ * Kontrollit tietokoneelle
+   
+ * Siirtyminen tasosta toiseen
+   
+ * Valikko
+   
+ * Taustamusiikki  
+   
+ 
