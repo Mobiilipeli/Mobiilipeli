@@ -57,7 +57,9 @@
  
  ![image](https://user-images.githubusercontent.com/10772727/225335785-cf918312-9203-4e13-af0c-380e3c9be5ec.png)
    
- * Valikko
+ * Päävalikko
+
+ ![image](https://user-images.githubusercontent.com/10772727/225338197-4d7fb3b5-60a7-47cd-9010-533ca2a88bf1.png)
    
  * Taustamusiikki  
  
