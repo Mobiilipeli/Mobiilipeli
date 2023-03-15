@@ -59,7 +59,7 @@
    
  * Taustamusiikki  
  
- *Metsätasoa muokattu
+ * Metsätasoa muokattu
    
  ![image](https://user-images.githubusercontent.com/112946898/225322356-7ca96e62-d852-46a3-911e-55630a565fdf.png)
 
