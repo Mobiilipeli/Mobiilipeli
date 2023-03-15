@@ -378,9 +378,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2607522cc4565c488ba0c3bbf1c1594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swingForce: 7
+  swingForce: 1
   speed: 0
-  jumpSpeed: 3
+  jumpSpeed: 1
   ropeHook: {x: 0, y: 0}
   isSwinging: 0
   groundCheck: 0
@@ -400,7 +400,7 @@ MonoBehaviour:
   ropeLayerMask:
     serializedVersion: 2
     m_Bits: 1
-  climbSpeed: 4
+  climbSpeed: 2.3
   ropeHingeAnchor: {fileID: 5216020994596765725}
   ropeJoint: {fileID: 5216020994305311810}
   crosshair: {fileID: 5216020993658265450}
