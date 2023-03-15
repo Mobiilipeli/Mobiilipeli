@@ -60,6 +60,10 @@
  * Päävalikko
 
  ![image](https://user-images.githubusercontent.com/10772727/225338197-4d7fb3b5-60a7-47cd-9010-533ca2a88bf1.png)
+ 
+ * Äänen säätö
+ 
+ ![image](https://user-images.githubusercontent.com/10772727/225343345-f1405783-daf4-4245-bfe5-dd3088e9819b.png)
    
  * Taustamusiikki  
  
