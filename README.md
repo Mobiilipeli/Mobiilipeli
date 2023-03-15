@@ -54,12 +54,21 @@
  * Kontrollit tietokoneelle
    
  * Siirtyminen tasosta toiseen
+ 
+ ![image](https://user-images.githubusercontent.com/10772727/225335785-cf918312-9203-4e13-af0c-380e3c9be5ec.png)
    
- * Valikko
+ * Päävalikko
+
+ ![image](https://user-images.githubusercontent.com/10772727/225338197-4d7fb3b5-60a7-47cd-9010-533ca2a88bf1.png)
    
  * Taustamusiikki  
  
  * Metsätasoa muokattu
    
  ![image](https://user-images.githubusercontent.com/112946898/225322356-7ca96e62-d852-46a3-911e-55630a565fdf.png)
+ 
+ * Luolatasoa muokattu
+
+![kuva](https://user-images.githubusercontent.com/105205141/225333388-58a1b9a6-2fd4-47e2-8643-547e9efd4d8b.png)
+
 
