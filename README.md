@@ -64,6 +64,10 @@
  * Äänen säätö
  
  ![image](https://user-images.githubusercontent.com/10772727/225343345-f1405783-daf4-4245-bfe5-dd3088e9819b.png)
+ 
+ * Tasovalikko
+
+ ![image](https://user-images.githubusercontent.com/10772727/225343917-ae732b36-2c9b-45d5-874d-4df6ee10c441.png)
    
  * Taustamusiikki  
  
