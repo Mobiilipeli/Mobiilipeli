@@ -54,6 +54,8 @@
  * Kontrollit tietokoneelle
    
  * Siirtyminen tasosta toiseen
+ 
+ ![image](https://user-images.githubusercontent.com/10772727/225335785-cf918312-9203-4e13-af0c-380e3c9be5ec.png)
    
  * Valikko
    
