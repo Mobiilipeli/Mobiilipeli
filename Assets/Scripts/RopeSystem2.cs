@@ -188,7 +188,7 @@ public class RopeSystem2 : MonoBehaviour
         {
             ropeJoint.distance -= Time.deltaTime * climbSpeed * (Mathf.Abs(verticalInput) +1) * 2;
         }
-        else if (verticalInput > 0f && ropeAttached)
+        else if (verticalInput > 0f && ropeAttached && isColliding)
         {
             ropeJoint.distance += Time.deltaTime * climbSpeed * (Mathf.Abs(verticalInput) +1) * 2;
         }
