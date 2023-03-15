@@ -46,3 +46,20 @@
 
  
  ### :date: Sprint 2 (27.2.-19.3.2023)
+
+ ### Uutta
+ 
+ * Kontrolleja hiotttu 
+   
+ * Kontrollit tietokoneelle
+   
+ * Siirtyminen tasosta toiseen
+   
+ * Valikko
+   
+ * Taustamusiikki  
+ 
+ * Metsätasoa muokattu
+   
+ ![image](https://user-images.githubusercontent.com/112946898/225322356-7ca96e62-d852-46a3-911e-55630a565fdf.png)
+
