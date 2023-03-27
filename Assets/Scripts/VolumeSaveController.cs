@@ -17,6 +17,7 @@ public class VolumeSaveController : MonoBehaviour
     public void VolumeSlider(float volume)
     {
         volumeTextUI.text = volume.ToString("0.0");
+        SaveVolumeButton();
     }
 
     // Metodi, joka tallentaa liukus‰‰timen asettaman ‰‰nenvoimakkuuden PlayerPrefs-tietokantaan.
