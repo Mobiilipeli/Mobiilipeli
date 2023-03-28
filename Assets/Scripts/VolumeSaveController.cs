@@ -13,7 +13,7 @@ public class VolumeSaveController : MonoBehaviour
         LoadValues();  // Ladataan tallennetut arvot, kun skripti k‰ynnistyy.
     }
 
-    // Metodi, joka p‰ivitt‰‰ tekstikentt‰‰n asetetun ‰‰nenvoimakkuusprosentin.
+    // Metodi, joka p‰ivitt‰‰ tekstikentt‰‰n asetetun ‰‰nenvoimakkuusprosentin ja tallentaa ‰‰nenvoimakkuuden.
     public void VolumeSlider(float volume)
     {
         volumeTextUI.text = volume.ToString("0.0");
