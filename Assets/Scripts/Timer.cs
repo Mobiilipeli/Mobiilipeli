@@ -13,9 +13,6 @@ public class Timer : MonoBehaviour
     [Header("Timer Settings")]
     public float currentTime;
     public bool countDown;
-
-    [Header("Limit Settings")]
-    public bool hasLimit;
     public float timerLimit;
 
     // Start is called before the first frame update
@@ -28,7 +25,7 @@ public class Timer : MonoBehaviour
     void Update()
     {
 
-        if (currentTime < 60)
+        if (currentTime < timerLimit)
         {
             currentTime = countDown ? currentTime -= Time.deltaTime : currentTime += Time.deltaTime;
         }
