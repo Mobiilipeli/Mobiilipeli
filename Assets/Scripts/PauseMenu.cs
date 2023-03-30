@@ -5,48 +5,52 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public static bool Paused = false;
-    public GameObject PauseMenuCanvas;
+    public static bool Paused = false; // Muuttuja, joka kertoo onko peli pys‰ytetty
+    public GameObject PauseMenuCanvas; // Pelin pys‰ytysvalikon kanvas
 
-    // Start is called before the first frame update
+    // Start-metodi kutsutaan ennen ensimm‰ist‰ framea
     void Start()
     {
-        Time.timeScale = 1f;
+        Time.timeScale = 1f; // Asetetaan ajan kiihtyvyys normaaliksi
     }
 
-    // Update is called once per frame
+    // Update-metodi kutsutaan jokaisen framen yhteydess‰
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape)) // Jos Esc-n‰pp‰int‰ painetaan
         {
-            if(Paused)
+            if (Paused) // Jos peli on jo pys‰ytetty
             {
-                Play();
+                Play(); // Jatketaan peli‰
             }
-            else
+            else // Muussa tapauksessa
             {
-                Stop();
+                Stop(); // Pys‰ytet‰‰n peli
             }
         }
     }
 
+    // Pys‰ytt‰‰ pelin ja avaa pelin pys‰ytysvalikon
     public void Stop()
     {
-        PauseMenuCanvas.SetActive(true);
-        Time.timeScale = 0f;
-        Paused = true;
-    }
-    public void Play()
-    {
-        PauseMenuCanvas.SetActive(false);
-        Time.timeScale = 1f;
-        Paused = false;
+        PauseMenuCanvas.SetActive(true); // N‰ytet‰‰n pelin pys‰ytysvalikko
+        Time.timeScale = 0f; // Asetetaan ajan kiihtyvyys nollaksi, jolloin peli pys‰htyy
+        Paused = true; // Asetetaan muuttuja Paused totuusarvoksi true
     }
 
+    // Jatkaa peli‰ ja piilottaa pelin pys‰ytysvalikon
+    public void Play()
+    {
+        PauseMenuCanvas.SetActive(false); // Piilotetaan pelin pys‰ytysvalikko
+        Time.timeScale = 1f; // Asetetaan ajan kiihtyvyys normaaliksi, jolloin peli jatkuu
+        Paused = false; // Asetetaan muuttuja Paused totuusarvoksi false
+    }
+
+    // Palaa p‰‰valikkoon ja asettaa ajan kiihtyvyyden normaaliksi
     public void MainMenuButton()
     {
-        SceneManager.LoadScene(0);
-        Time.timeScale = 1f;
-        Paused = false;
+        SceneManager.LoadScene(0); // Ladataan ensimm‰inen Scene
+        Time.timeScale = 1f; // Asetetaan ajan kiihtyvyys normaaliksi, jolloin peli jatkuu
+        Paused = false; // Asetetaan muuttuja Paused totuusarvoksi false
     }
 }
