@@ -27603,8 +27603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 1819641216}
-  currentTime: 5
-  countDown: 1
+  levelTime: 0
   timerLimit: 0
 --- !u!4 &767364899
 Transform:
