@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/PauseMenu.unity
     guid: 5d29e452158ac804bac67d187eee02ab
   - enabled: 1
-    path: Assets/Scenes/TilemapTestScene.unity
-    guid: 6a0390888bfa62544b5c45927e10b65a
+    path: Assets/Scenes/Level 2.unity
+    guid: e5416ab0904a3434faebe286c34ddc43
   m_configObjects: {}
