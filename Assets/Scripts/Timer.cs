@@ -25,7 +25,7 @@ public class Timer : MonoBehaviour
     void Update()
     {
 
-        if (currentTime < timerLimit)
+        if (currentTime > timerLimit)
         {
             currentTime = countDown ? currentTime -= Time.deltaTime : currentTime += Time.deltaTime;
         }
