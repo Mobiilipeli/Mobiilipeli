@@ -15,6 +15,8 @@ public class PlayerMovement2 : MonoBehaviour
     private Animator animator;
     private float jumpInput;
     private float horizontalInput;
+    private bool isTouching = false;
+    
 
     void Awake()
     {
@@ -25,8 +27,9 @@ public class PlayerMovement2 : MonoBehaviour
 
     void Update()
     {
+        var touchDelta = TouchHandler.handleTouch();
         jumpInput = Input.GetAxis("Jump");
-        horizontalInput = Input.GetAxis("Mouse X");
+        horizontalInput = Mathf.Abs(touchDelta.x) > 0 ? touchDelta.x : Input.GetAxis("Mouse X");
         var halfHeight = transform.GetComponent<SpriteRenderer>().bounds.extents.y;
         groundCheck = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y - halfHeight - 0.04f), Vector2.down, 0.025f);
     }
@@ -61,7 +64,7 @@ public class PlayerMovement2 : MonoBehaviour
 
                 var force = perpendicularDirection * swingForce * Mathf.Abs(horizontalInput) * 10;
                 rBody.AddForce(force, ForceMode2D.Force);
-                print(horizontalInput);
+                
             }
             else
             {

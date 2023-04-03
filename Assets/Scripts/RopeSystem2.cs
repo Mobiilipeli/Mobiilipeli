@@ -183,7 +183,8 @@ public class RopeSystem2 : MonoBehaviour
     /// </summary>
     private void HandleRopeLength()
     {
-        var verticalInput = Input.GetAxis("Mouse Y");
+        var touchDelta = TouchHandler.handleTouch();
+        var verticalInput = Mathf.Abs(touchDelta.y) > 0 ? touchDelta.y : Input.GetAxis("Mouse Y");
         if (verticalInput < 0f && ropeAttached && !isColliding)
         {
             ropeJoint.distance -= Time.deltaTime * climbSpeed * (Mathf.Abs(verticalInput) +1) * 2;
