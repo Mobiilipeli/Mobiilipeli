@@ -8,36 +8,30 @@ public class Timer : MonoBehaviour
 {
 
     [Header("Component")]
-    public TextMeshProUGUI timerText;
+    public TextMeshProUGUI timerText; // Paikka tekstikomponentille
 
     [Header("Timer Settings")]
-    public float currentTime;
-    public bool countDown;
-    public float timerLimit;
+    public float levelTime; // Tason aikaraja
+    public float timerLimit = 0; // Aikaraja nollassa
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    // Update funktiota kutsutaan joka framella
     void Update()
     {
 
-        if (currentTime > timerLimit)
+        if (levelTime > timerLimit) // Jos tämän hetkinen aika on isompi kuin aikaraja objektin määrä,
+                                    // kello laskee alaspäin kunnes osutaan aikarajaan ja se käynnistää tason uudelleen
         {
-            currentTime = countDown ? currentTime -= Time.deltaTime : currentTime += Time.deltaTime;
+            levelTime = levelTime -= Time.deltaTime; // Aika laskee alaspäin
         }
         else
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
-        SetTimerText();
+        SetTimerText(); // Kutsutaan funktio, joka tekee ajasta stringin
     }
-    private void SetTimerText()
+    private void SetTimerText() // Funktio, joka muuttaa ajan stringiksi
     {
-        timerText.text = currentTime.ToString("0.0");
+        timerText.text = levelTime.ToString("0.0");
     }
 }
