@@ -73,9 +73,18 @@ public class MoveToNextLevel : MonoBehaviour
 
     private void OnDestroy()
     {
-        for (int i = 0; i < SceneManager.sceneCountInBuildSettings; i++) // 7. Print the completion times for all levels in the dictionary.
+        float totalBestTime = 0f;
+
+        for (int i = 0; i < SceneManager.sceneCountInBuildSettings; i++)
         {
-            Debug.Log("Level " + i.ToString() + " time: " + levelTimes[i].ToString());
+            float bestTime = levelTimes[i];
+            if (bestTime > 0)
+            {
+                totalBestTime += bestTime;
+            }
+            Debug.Log("Level " + i.ToString() + " time: " + bestTime.ToString());
         }
+
+        Debug.Log("Total best time: " + totalBestTime.ToString());
     }
 }
