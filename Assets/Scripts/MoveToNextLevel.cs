@@ -8,22 +8,22 @@ using TMPro;
 public class MoveToNextLevel : MonoBehaviour
 {
     public int nextSceneLoad;
-    private Dictionary<int, float> levelTimes; // 1. Create a dictionary to hold the completion times for all levels.
-    public TextMeshProUGUI bestTimeText; // 2. Declare a UI Text object to display the best completion time.
+    private Dictionary<int, float> levelTimes; // Luo sanakirja, johon tallennetaan kaikkien tasojen suoritusaikojen tiedot.
+    public TextMeshProUGUI bestTimeText; // Määritä käyttöliittymän tekstialue, johon näytetään paras suoritusaika.
 
     void Start()
     {
         nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
-        levelTimes = new Dictionary<int, float>(); // 3. Initialize the dictionary.
+        levelTimes = new Dictionary<int, float>(); // Alusta sanakirja.
 
-        // 4. Load all saved completion times into the dictionary.
+        // Lataa tallennetut suoritukset sanakirjaan.
         for (int i = 0; i < SceneManager.sceneCountInBuildSettings; i++)
         {
             float completionTime = PlayerPrefs.GetFloat("levelTime" + i.ToString(), 0f);
             levelTimes.Add(i, completionTime);
         }
 
-        // 5. Retrieve and display the best completion time for the current scene.
+        // Etsi ja näytä parhaat suoritusajat nykyiselle tasolle.
         float bestTime = levelTimes[SceneManager.GetActiveScene().buildIndex];
         if (bestTime > 0)
         {
@@ -57,7 +57,7 @@ public class MoveToNextLevel : MonoBehaviour
             {
                 Debug.Log("You Completed ALL Levels");
 
-                // Show victory screen or perform other end-game actions.
+                // Näytä voittoruutu tai suorita muita loppupelin toimintoja.
             }
             else
             {
