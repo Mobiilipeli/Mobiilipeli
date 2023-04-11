@@ -32,21 +32,21 @@ using UnityEngine.SceneManagement;
 
 public class Lose : MonoBehaviour
 {
-    public float loseHeight = -5f;
+    // public float loseHeight = -5f;
     public GameManager gameManager;
     public DeathCounter deathCounter;
 
-    private void Update()
-    {
-        if (transform.position.y <= loseHeight)
-        {
-            gameManager.gameOver();
-            if (deathCounter != null)
-            {
-                deathCounter.IncreaseDeaths();
-            }
-        }
-    }
+    // private void Update()
+    // {
+    //     if (transform.position.y <= loseHeight)
+    //     {
+    //         gameManager.gameOver();
+    //         if (deathCounter != null)
+    //         {
+    //             deathCounter.IncreaseDeaths();
+    //         }
+    //     }
+    // }
 
     private void OnTriggerEnter2D(Collider2D collision)
 {
