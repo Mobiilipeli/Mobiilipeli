@@ -30,24 +30,27 @@
 
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
+using System.Collections.Generic;
 
 public class Lose : MonoBehaviour
 {
     public float loseHeight = -5f;
+    public GameManager gameManager;
 
 	// Update is called once per frame
 	void Update ()
     {
 	    if (transform.position.y <= loseHeight)
 	    {
-	        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+	        gameManager.gameOver();
 	    }
 	}
 	    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            gameManager.gameOver();
         }
     }
 }
