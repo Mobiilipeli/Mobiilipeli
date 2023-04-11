@@ -3,7 +3,8 @@ guid: cd77ad2208232ac438c75bc4ce3d208d
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - deathCounterTextPrefab: {fileID: 7641529913150925396, guid: 157bf166512035148bc0b82b125a9873, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

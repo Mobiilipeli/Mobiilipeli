@@ -27427,8 +27427,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -146.30359, y: 69}
-  m_SizeDelta: {x: 292.6071, y: 50}
+  m_AnchoredPosition: {x: -96.16974, y: 69}
+  m_SizeDelta: {x: 192.3394, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &229760989
 MonoBehaviour:
@@ -27513,7 +27513,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 71.3244, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -28235,6 +28235,14 @@ PrefabInstance:
     - target: {fileID: 5216020994305311808, guid: 968b8534f7cdf7a4792f9340996ce8f7, type: 3}
       propertyPath: loseHeight
       value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5216020994305311808, guid: 968b8534f7cdf7a4792f9340996ce8f7, type: 3}
+      propertyPath: deathCounter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5216020994305311808, guid: 968b8534f7cdf7a4792f9340996ce8f7, type: 3}
+      propertyPath: deathCounterCanvas
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5216020994305311818, guid: 968b8534f7cdf7a4792f9340996ce8f7, type: 3}
       propertyPath: m_Name
@@ -35118,6 +35126,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loseHeight: -5
+  gameManager: {fileID: 0}
+  deathCounter: {fileID: 0}
+  deathCounterCanvas: {fileID: 0}
 --- !u!19719996 &1886277597
 TilemapCollider2D:
   m_ObjectHideFlags: 0

@@ -27,30 +27,37 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
-using System.Collections.Generic;
 
 public class Lose : MonoBehaviour
 {
     public float loseHeight = -5f;
     public GameManager gameManager;
+    public DeathCounter deathCounter;
 
-	// Update is called once per frame
-	void Update ()
+    private void Update()
     {
-	    if (transform.position.y <= loseHeight)
-	    {
-	        gameManager.gameOver();
-	    }
-	}
-	    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Player")
+        if (transform.position.y <= loseHeight)
         {
             gameManager.gameOver();
+            if (deathCounter != null)
+            {
+                deathCounter.IncreaseDeaths();
+            }
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+{
+    if (collision != null && collision.tag == "Player")
+    {
+        gameManager.gameOver();
+
+        if (deathCounter != null)
+        {
+            deathCounter.IncreaseDeaths();
+        }
+    }
+}
 }
