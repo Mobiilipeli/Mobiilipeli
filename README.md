@@ -82,3 +82,40 @@
 ![kuva](https://user-images.githubusercontent.com/105205141/225333388-58a1b9a6-2fd4-47e2-8643-547e9efd4d8b.png)
 
 
+ ### :date: Sprint 2 (20.3.-13.4.2023)
+
+ ### Uutta
+ 
+ * Maali tokaan tasoon ja kolmanteen tasoon
+ 
+ * Pelikontrollit mobiililaitteelle
+ 
+ * Testiversio v2
+ 
+ https://play.unity.com/mg/other/webgl-builds-333933
+ 
+ * Pause valikko
+ 
+ ![image](https://user-images.githubusercontent.com/10772727/231660121-f09da310-6f63-4731-a009-a27317177c86.png)
+ 
+ * Kolmas taso
+ 
+ ![image](https://user-images.githubusercontent.com/10772727/231660592-47189f00-2ea8-4e33-a0a1-c92ceaee5b2a.png)
+ 
+ * Ajastin tasoille
+ 
+ * Parhaat ajat tasoille
+ 
+ ![image](https://user-images.githubusercontent.com/10772727/231660776-be2e2c6a-2c95-47ff-8ba1-1223e4e88700.png)
+ 
+ * Game Over valikko
+ 
+ ![image](https://user-images.githubusercontent.com/10772727/231660865-c4b2476a-796f-494d-a76e-ed29c9a728a9.png)
+ 
+ * Tutoriaali
+ 
+ ![image](https://user-images.githubusercontent.com/10772727/231661062-0c23a056-b690-436c-a72a-ab0547bd7cd0.png)
+ 
+ * Death counter
+ 
+ ![image](https://user-images.githubusercontent.com/10772727/231661201-36cd91f9-4624-45be-bc1b-ce24ad4e26fb.png)
