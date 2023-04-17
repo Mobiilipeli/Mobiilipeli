@@ -7,28 +7,25 @@ public class GameManager : MonoBehaviour
 {
 
     public GameObject gameOverUI;
-    public GameObject respawnPoint;
-    public GameObject player;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    // Kun peli p‰‰ttyy, asetetaan game over -valikko n‰kyv‰ksi ja soitetaan ‰‰niefekti
     public void gameOver()
     {
         gameOverUI.SetActive(true);
+        playGameOverSound();
     }
 
+    // Kun pelaaja aloittaa pelin uudelleen, ladataan nykyinen scene uudelleen ja pys‰ytet‰‰n ‰‰niefekti
     public void restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        GetComponent<AudioSource>().Stop();
+    }
+
+    // Soitetaan game over -‰‰nieffekti
+    public void playGameOverSound()
+    {
+        GetComponent<AudioSource>().Play();
     }
 }
+
