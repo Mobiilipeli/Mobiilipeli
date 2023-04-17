@@ -377,7 +377,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 564573509}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -27797,7 +27797,7 @@ GameObject:
   - component: {fileID: 322842245}
   - component: {fileID: 322842244}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Pause Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27903,7 +27903,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 564573509}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -28574,6 +28574,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 968b8534f7cdf7a4792f9340996ce8f7, type: 3}
+--- !u!1 &564573509 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5216020994305311818, guid: 968b8534f7cdf7a4792f9340996ce8f7, type: 3}
+  m_PrefabInstance: {fileID: 564573508}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &623176264
 GameObject:
   m_ObjectHideFlags: 0
@@ -29419,8 +29424,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverUI: {fileID: 1605441695}
-  respawnPoint: {fileID: 0}
-  player: {fileID: 0}
 --- !u!4 &860931410
 Transform:
   m_ObjectHideFlags: 0

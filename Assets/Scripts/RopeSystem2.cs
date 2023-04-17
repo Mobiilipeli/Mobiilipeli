@@ -114,6 +114,8 @@ public class RopeSystem2 : MonoBehaviour
         {
             if (ropeAttached) return;
             ropeRenderer.enabled = true;
+            // Play rope fire sound effect
+            GetComponent<AudioSource>().Play();
 
             var hit = Physics2D.Raycast(playerPosition, aimDirection, ropeMaxCastDistance, ropeLayerMask);
             if (hit.collider != null)
