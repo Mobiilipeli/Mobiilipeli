@@ -10,4 +10,14 @@ public class ToMainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
+
+    // Metodi, joka tarkistaa, onko käyttäjä painanut mitään näppäintä.
+    // Jos käyttäjä painaa näppäintä, siirrytään päävalikkoon.
+    void Update()
+    {
+        if (Input.anyKeyDown)
+        {
+            Menu();
+        }
+    }
 }
