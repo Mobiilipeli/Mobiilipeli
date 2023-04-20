@@ -1,4 +1,4 @@
-# Mobiilipeli
+# Rope Swing
 
 ### :date: Sprint 0 (16.-29.1.2023)
 
