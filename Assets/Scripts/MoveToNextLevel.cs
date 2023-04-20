@@ -27,11 +27,11 @@ public class MoveToNextLevel : MonoBehaviour
         float bestTime = levelTimes[SceneManager.GetActiveScene().buildIndex];
         if (bestTime > 0)
         {
-            bestTimeText.text = "Best Time: " + bestTime.ToString("F2") + "s";
+            bestTimeText.text = "Best Time: " + bestTime.ToString("F1");
         }
         else
         {
-            bestTimeText.text = "No Best Time Set Yet";
+            bestTimeText.text = " ";
         }
     }
 

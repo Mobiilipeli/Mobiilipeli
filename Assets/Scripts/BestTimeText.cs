@@ -7,8 +7,8 @@ public class BestTimeText : MonoBehaviour
 
     private void Start()
     {
-        // Haetaan tallennettu aika ja asetetaan tekstikentän arvoksi
-        float bestTime = PlayerPrefs.GetFloat(timeKey, Mathf.Infinity); // Jos aikaa ei ole tallennettu, käytetään Mathf.Infinity -arvoa
-        GetComponent<TextMeshProUGUI>().text = "Best Time: " + bestTime.ToString("0.00") + "s";
+        // Haetaan tallennettu aika ja asetetaan tekstikentï¿½n arvoksi
+        float bestTime = PlayerPrefs.GetFloat(timeKey, Mathf.Infinity); // Jos aikaa ei ole tallennettu, kï¿½ytetï¿½ï¿½n Mathf.Infinity -arvoa
+        GetComponent<TextMeshProUGUI>().text = "Best Time: " + bestTime.ToString("0.0");
     }
 }
