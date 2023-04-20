@@ -4699,19 +4699,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_SizeDelta.x
@@ -4719,7 +4719,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 56.7419
+      value: 56.741898
       objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4751,11 +4751,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -358
+      value: 190
       objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -237.63
+      value: 28.369995
       objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -90627,11 +90627,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8642561455479873823, guid: 56e63fa7885c5104eba2a59569ddb159, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 470.2499
+      value: 350.9798
       objectReference: {fileID: 0}
     - target: {fileID: 8642561455479873823, guid: 56e63fa7885c5104eba2a59569ddb159, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -368.47144
+      value: -273.62494
       objectReference: {fileID: 0}
     - target: {fileID: 8642561455479873823, guid: 56e63fa7885c5104eba2a59569ddb159, type: 3}
       propertyPath: m_AnchoredPosition.y
