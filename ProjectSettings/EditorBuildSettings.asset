@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 3.unity
     guid: f066961cebada6a4b9ca9eb8e5000562
   - enabled: 1
-    path: Assets/Scenes/Ropeswing.unity
-    guid: c0efb1b9959eeee4894768915cb51637
+    path: Assets/Scenes/Credits.unity
+    guid: 0fd50099b62be5c409f549fa869fd669
   m_configObjects: {}
