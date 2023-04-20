@@ -82,7 +82,7 @@
 ![kuva](https://user-images.githubusercontent.com/105205141/225333388-58a1b9a6-2fd4-47e2-8643-547e9efd4d8b.png)
 
 
- ### :date: Sprint 2 (20.3.-13.4.2023)
+ ### :date: Sprint 3 (20.3.-13.4.2023)
 
  ### Uutta
  
