@@ -37,7 +37,7 @@ Tämä 2D-peli on koulun Ohjelmistoprojekti II kurssia varten tehty projekti. Pe
   ```
 ## Pelaa peliä
 
-Voit pelata peliä alla olevasta linkistä
+Voit pelata peliä alla olevasta linkistä.
 
 [Pelaa](https://play.unity.com/mg/other/webgl-builds-333933)
 
