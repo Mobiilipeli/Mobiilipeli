@@ -1,19 +1,42 @@
 # Rope Swing
 
-## About the project
+## Projektista
 
-Tämä 2D peli on koulun ohjelmisto II kurssia varten tehty projekti.  
+Tämä 2D-peli on koulun Ohjelmistoprojekti II kurssia varten tehty projekti. Peli on tehty Unity-pelimoottoria ja C# ohjelmointikieltä käyttäen. Tasot ovat luotu ilmaisia tilemap-templateja käyttäen. Itse hahmon on piirtänyt Lauri Törmä Paint-sovellusta käyttäen. Pelin fysiikat ovat luotu tutoriaalia käyttäen.
 
+*Pelin tarinaa tähän*
 
+## Rakennettu käyttäen
 
+* Unity
+  ```sh
+  Unity versio 2021.3.16f1
+  ```
+* C#
+  ```sh
+  C# ohjelmointikieli
+  ```
+## Kontrollit
 
+* PC
 
+  ```
+  Left Mouse Button - Ampuu köyden (Pidä Left Mouse Button alhaalla ja liikuta hiirtä liikkuaksesi pelissä)
+  
+  
+  ESC - Avaa pause menu
+  ```
+* Mobile
+  ```
+  Tulossa
+  ```
+## Pelaa peliä
 
+Voit pelata peliä alla olevasta linkistä
 
+[Pelaa](https://play.unity.com/mg/other/webgl-builds-333933)
 
-
-
-
+## Kehityshistoria
 
 ### :date: Sprint 0 (16.-29.1.2023)
 
