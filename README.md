@@ -2,7 +2,7 @@
 
 ## Projektista
 
-Tämä 2D-peli on koulun Ohjelmistoprojekti II kurssia varten tehty projekti. Peli on tehty Unity-pelimoottoria ja C# ohjelmointikieltä käyttäen. Tasot ovat luotu ilmaisia tilemap-templateja käyttäen. Itse hahmon on piirtänyt Lauri Törmä Paint-sovellusta käyttäen. Pelin fysiikat ovat luotu tutoriaalia käyttäen.
+Tämä 2D-peli on koulun Ohjelmistoprojekti II kurssia varten tehty projekti. Peli on tehty Unity-pelimoottoria ja C# ohjelmointikieltä käyttäen. Tasot ovat luotu ilmaisia tilemap-templateja käyttäen. Hahmo on itse piirretty Paint-sovellusta käyttäen. Pelin fysiikat ovat luotu tutoriaalia käyttäen.
 
 *Pelin tarinaa tähän*
 
