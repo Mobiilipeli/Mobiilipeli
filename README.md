@@ -1,5 +1,20 @@
 # Rope Swing
 
+## About the project
+
+Tämä 2D peli on koulun ohjelmisto II kurssia varten tehty projekti.  
+
+
+
+
+
+
+
+
+
+
+
+
 ### :date: Sprint 0 (16.-29.1.2023)
 
 * Valmistauduttiin henkisesti projektia varten.  
