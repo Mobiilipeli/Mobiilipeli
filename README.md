@@ -1,5 +1,10 @@
 # Rope Swing
 
+![image](https://user-images.githubusercontent.com/112946898/233856211-dc9f0d91-61e4-4e8f-ac54-7398f2fda604.png)
+![image](https://user-images.githubusercontent.com/112946898/233856282-81f78cd4-ff00-4a36-bb0f-b91e07273ba2.png)
+
+
+
 ## Projektista
 
 Tämä 2D-peli on koulun Ohjelmistoprojekti II kurssia varten tehty projekti. Peli on tehty Unity-pelimoottoria ja C# ohjelmointikieltä käyttäen. Tasot ovat luotu ilmaisia tilemap-templateja käyttäen. Hahmo on itse piirretty Paint-sovellusta käyttäen. Pelin fysiikat ovat luotu tutoriaalia käyttäen.
