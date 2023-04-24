@@ -27857,8 +27857,8 @@ MonoBehaviour:
     after you feel confident, move on to the next level by reaching the flag at the
     top of the level.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 17af780a0fa2f80458ac3ba01eee702a, type: 2}
+  m_sharedMaterial: {fileID: -3694816783180415136, guid: 17af780a0fa2f80458ac3ba01eee702a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -28543,8 +28543,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Avoid spikes, they will kill you!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 17af780a0fa2f80458ac3ba01eee702a, type: 2}
+  m_sharedMaterial: {fileID: -3694816783180415136, guid: 17af780a0fa2f80458ac3ba01eee702a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -29369,8 +29369,8 @@ MonoBehaviour:
   m_text: If you found me, I'm going to tell you a secret... be ready when you enter
     the next level... you won't have much time there!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 17af780a0fa2f80458ac3ba01eee702a, type: 2}
+  m_sharedMaterial: {fileID: -3694816783180415136, guid: 17af780a0fa2f80458ac3ba01eee702a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
