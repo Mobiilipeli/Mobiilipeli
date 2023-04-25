@@ -13,6 +13,15 @@ public class GameManager : MonoBehaviour
     {
         gameOverUI.SetActive(true);
         playGameOverSound();
+
+        // Etsi p‰‰kamera scenest‰
+        Camera mainCamera = Camera.main;
+
+        // Generoi satunnainen paikka tietyll‰ et‰isyydell‰
+        Vector3 shakePos = Random.insideUnitSphere * 2f;
+
+        // Ravista kameraa lis‰‰m‰ll‰ t‰rin‰ paikka sen nykyiseen sijaintiin
+        mainCamera.transform.position += shakePos;
     }
 
     // Kun pelaaja aloittaa pelin uudelleen, ladataan nykyinen scene uudelleen ja pys‰ytet‰‰n ‰‰niefekti
@@ -28,4 +37,3 @@ public class GameManager : MonoBehaviour
         GetComponent<AudioSource>().Play();
     }
 }
-
