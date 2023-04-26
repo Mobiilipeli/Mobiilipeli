@@ -365,7 +365,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2140161449}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -36238,3 +36238,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082840205}
   m_CullTransparentMesh: 1
+--- !u!1 &2140161449 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8642561454956256961, guid: 56e63fa7885c5104eba2a59569ddb159, type: 3}
+  m_PrefabInstance: {fileID: 1960504553}
+  m_PrefabAsset: {fileID: 0}

@@ -9630,6 +9630,11 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
+--- !u!1 &397213378 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8642561454956256961, guid: 56e63fa7885c5104eba2a59569ddb159, type: 3}
+  m_PrefabInstance: {fileID: 1682772968}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &398994115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67377,7 +67382,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 397213378}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
