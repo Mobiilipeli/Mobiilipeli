@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject gameOverUI;
 
+    public GameObject player;
+
     // Kun peli p‰‰ttyy, asetetaan game over -valikko n‰kyv‰ksi ja soitetaan ‰‰niefekti
     public void gameOver()
     {
@@ -22,6 +24,8 @@ public class GameManager : MonoBehaviour
 
         // Ravista kameraa lis‰‰m‰ll‰ t‰rin‰ paikka sen nykyiseen sijaintiin
         mainCamera.transform.position += shakePos;
+
+        player.SetActive(false);
     }
 
     // Kun pelaaja aloittaa pelin uudelleen, ladataan nykyinen scene uudelleen ja pys‰ytet‰‰n ‰‰niefekti

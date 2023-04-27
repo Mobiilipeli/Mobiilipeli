@@ -28868,6 +28868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverUI: {fileID: 519878761}
+  player: {fileID: 564573509}
 --- !u!4 &860931410
 Transform:
   m_ObjectHideFlags: 0
