@@ -311,8 +311,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -123, y: -629}
-  m_SizeDelta: {x: 222.6295, y: 1175.1}
+  m_AnchoredPosition: {x: -123, y: -767.7732}
+  m_SizeDelta: {x: 222.6295, y: 1452.6265}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &926306456
 MonoBehaviour:
@@ -410,8 +410,24 @@ MonoBehaviour:
     Credits
 
 
-    Special
-    thanks'
+    Screen
+    shake
+
+
+    Cave level 2
+
+
+    Documentation
+
+
+    WebGL build
+
+
+    Android
+    build
+
+
+    Special thanks'
 --- !u!222 &926306457
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -451,7 +467,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -910,8 +926,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 117.78, y: -629}
-  m_SizeDelta: {x: 222.6295, y: 1175.1261}
+  m_AnchoredPosition: {x: 117.78, y: -767.75}
+  m_SizeDelta: {x: 222.6295, y: 1452.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2143314258
 MonoBehaviour:
@@ -950,7 +966,8 @@ MonoBehaviour:
     Sahin\n\nElias Helin\n\nTeemu Paananen\n\nNicklas Stellberg\n\nNicklas Stellberg\n\nNicklas
     Stellberg\n\nNicklas Stellberg\n\nLauri T\xF6rm\xE4\n\nTeemu Paananen\n\nNicklas
     Stellberg\n\nTeemu Paananen\n\nTeemu Paananen\n\nSeyhan Sahin\n\nNicklas Stellberg\n\nElias
-    Helin\n\nNicklas Stellberg\n\nAll asset creators"
+    Helin\n\nNicklas Stellberg\n\nNicklas Stellberg\n\nSeyhan Sahin\n\nTeemu Paananen\n\nNicklas
+    Stellberg\n\nLauri T\xF6rm\xE4\n\nAll asset creators"
 --- !u!222 &2143314259
 CanvasRenderer:
   m_ObjectHideFlags: 0
