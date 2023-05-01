@@ -10,32 +10,42 @@ public class GameManager : MonoBehaviour
 
     public GameObject player;
 
-    // Kun peli päättyy, asetetaan game over -valikko näkyväksi ja soitetaan ääniefekti
+    public ParticleSystem particle;
+
+
+    // Kun peli pï¿½ï¿½ttyy, asetetaan game over -valikko nï¿½kyvï¿½ksi ja soitetaan ï¿½ï¿½niefekti
     public void gameOver()
     {
         gameOverUI.SetActive(true);
         playGameOverSound();
 
-        // Etsi pääkamera scenestä
+        // Etsi pï¿½ï¿½kamera scenestï¿½
         Camera mainCamera = Camera.main;
 
-        // Generoi satunnainen paikka tietyllä etäisyydellä
+        // Generoi satunnainen paikka tietyllï¿½ etï¿½isyydellï¿½
         Vector3 shakePos = Random.insideUnitSphere * 2f;
 
-        // Ravista kameraa lisäämällä tärinä paikka sen nykyiseen sijaintiin
-        mainCamera.transform.position += shakePos;
+        // Ravista kameraa lisï¿½ï¿½mï¿½llï¿½ tï¿½rinï¿½ paikka sen nykyiseen sijaintiin
+        // mainCamera.transform.position += shakePos;
 
+        // asettaa pelaajan epÃ¤aktiiviseksi
         player.SetActive(false);
+
+        // siirtÃ¤Ã¤ particle systemin pelaajan positioon
+        particle.transform.position = player.transform.position;
+
+        // kuolema-animaatio
+        particle.Play();
     }
 
-    // Kun pelaaja aloittaa pelin uudelleen, ladataan nykyinen scene uudelleen ja pysäytetään ääniefekti
+    // Kun pelaaja aloittaa pelin uudelleen, ladataan nykyinen scene uudelleen ja pysï¿½ytetï¿½ï¿½n ï¿½ï¿½niefekti
     public void restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         GetComponent<AudioSource>().Stop();
     }
 
-    // Soitetaan game over -äänieffekti
+    // Soitetaan game over -ï¿½ï¿½nieffekti
     public void playGameOverSound()
     {
         GetComponent<AudioSource>().Play();
