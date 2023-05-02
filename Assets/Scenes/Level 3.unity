@@ -4694,6 +4694,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeathCounterText 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8489549177994486145, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
+      propertyPath: m_text
+      value: 'Deaths: 0'
+      objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4724,11 +4728,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 183.9696
+      value: 216
       objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 56.741898
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4760,11 +4764,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 191.8
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 28.371
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 8489549177994486151, guid: fa01f62e300ec7240a960a6598335fd7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
