@@ -1,7 +1,7 @@
 # Rope Swing
 
-![image](https://user-images.githubusercontent.com/112946898/233856211-dc9f0d91-61e4-4e8f-ac54-7398f2fda604.png)
-![image](https://user-images.githubusercontent.com/112946898/233856282-81f78cd4-ff00-4a36-bb0f-b91e07273ba2.png)
+![image](https://user-images.githubusercontent.com/112946898/235650061-c3d81155-dfad-42ff-b755-ce35b20268a6.png)
+![image](https://user-images.githubusercontent.com/112946898/235650180-ef5a72a1-d741-4c42-87fa-787461b8ecae.png)
 
 
 
@@ -29,9 +29,9 @@ Tämä 2D-peli on koulun Ohjelmistoprojekti II kurssia varten tehty projekti. Pe
   
   ESC - Avaa pause menu
   ```
-* Mobile
+* Mobiili
   ```
-  Tulossa
+  Paina sormella ruutua ampuaaksesi köyden
   ```
 ## Pelaa peliä
 
@@ -168,4 +168,22 @@ Voit pelata peliä alla olevasta linkistä.
  
   ### :date: Sprint 4 (17.4.-4.5.2023)
 
-  
+ * Ääniefektit
+ 
+ * Lopputekstit
+ ![image](https://user-images.githubusercontent.com/112946898/235650640-ddb324a6-a7a5-49d6-9f60-5df2973a2a93.png)
+
+ * Uusi UI ja fontit
+ 
+ * Kuolemaan paremmat efektit
+ 
+ ![image](https://user-images.githubusercontent.com/112946898/235651062-806b7ac8-fcfe-4634-82b6-c5dbb36f270e.png)
+
+ * Lisää piikkejä tasoihin
+ 
+ * Neljäs taso
+ 
+ ![image](https://user-images.githubusercontent.com/112946898/235651430-4c7e5eaa-baaf-4a78-8ee8-604cfd5ced2f.png)
+
+* Lepakon lisääminen tasoihin
+
