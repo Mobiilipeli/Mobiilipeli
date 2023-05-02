@@ -39,6 +39,10 @@ Voit pelata peliä alla olevasta linkistä.
 
 [Pelaa](https://play.unity.com/mg/other/webgl-builds-333933)
 
+## Credits
+
+[Credits](https://github.com/Mobiilipeli/Mobiilipeli/blob/main/credits.md)
+
 ## Kehityshistoria
 
 ### :date: Sprint 0 (16.-29.1.2023)
