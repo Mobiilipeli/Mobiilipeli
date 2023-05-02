@@ -35,7 +35,9 @@ Tämä 2D-peli on koulun Ohjelmistoprojekti II kurssia varten tehty projekti. Pe
 
 Voit pelata peliä alla olevasta linkistä.
 
-[Pelaa](https://play.unity.com/mg/other/webgl-builds-333933)
+[Pelaa nettiselaimessa](https://play.unity.com/mg/other/webgl-builds-333933)
+
+[Lataa tietokoneelle](https://drive.google.com/file/d/1TGFNVv4X7ARG7FLu6InwLq2xM7IyjElw/view?usp=sharing)
 
 ## Credits
 
