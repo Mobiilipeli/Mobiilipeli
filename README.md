@@ -3,8 +3,6 @@
 ![image](https://user-images.githubusercontent.com/112946898/235650061-c3d81155-dfad-42ff-b755-ce35b20268a6.png)
 ![image](https://user-images.githubusercontent.com/112946898/235650180-ef5a72a1-d741-4c42-87fa-787461b8ecae.png)
 
-
-
 ## Projektista
 
 Tämä 2D-peli on koulun Ohjelmistoprojekti II kurssia varten tehty projekti. Peli on tehty Unity-pelimoottoria ja C# ohjelmointikieltä käyttäen. Tasot ovat luotu ilmaisia tilemap-templateja käyttäen. Hahmo on itse piirretty Paint-sovellusta käyttäen. Pelin fysiikat ovat luotu tutoriaalia käyttäen.
@@ -171,6 +169,7 @@ Voit pelata peliä alla olevasta linkistä.
  * Ääniefektit
  
  * Lopputekstit
+ 
  ![image](https://user-images.githubusercontent.com/112946898/235650640-ddb324a6-a7a5-49d6-9f60-5df2973a2a93.png)
 
  * Uusi UI ja fontit
