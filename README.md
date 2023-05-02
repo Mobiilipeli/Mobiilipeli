@@ -9,8 +9,6 @@
 
 Tämä 2D-peli on koulun Ohjelmistoprojekti II kurssia varten tehty projekti. Peli on tehty Unity-pelimoottoria ja C# ohjelmointikieltä käyttäen. Tasot ovat luotu ilmaisia tilemap-templateja käyttäen. Hahmo on itse piirretty Paint-sovellusta käyttäen. Pelin fysiikat ovat luotu tutoriaalia käyttäen.
 
-*Pelin tarinaa tähän*
-
 ## Rakennettu käyttäen
 
 * Unity
@@ -40,6 +38,10 @@ Tämä 2D-peli on koulun Ohjelmistoprojekti II kurssia varten tehty projekti. Pe
 Voit pelata peliä alla olevasta linkistä.
 
 [Pelaa](https://play.unity.com/mg/other/webgl-builds-333933)
+
+## Credits
+
+[Credits](https://github.com/Mobiilipeli/Mobiilipeli/blob/main/credits.md)
 
 ## Kehityshistoria
 
@@ -164,6 +166,6 @@ Voit pelata peliä alla olevasta linkistä.
  ![image](https://user-images.githubusercontent.com/10772727/231661201-36cd91f9-4624-45be-bc1b-ce24ad4e26fb.png)
  
  
-  ### :date: Sprint 4 (17.4.-7.5.2023)
+  ### :date: Sprint 4 (17.4.-4.5.2023)
 
-  ### Uutta
+  
